@@ -1,0 +1,25 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+.grid-2-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-column {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-column {
+  grid-template-columns: repeat(4, 1fr);
+}
+.margin--top {
+  margin-top: 9.6rem;
+}
+.margin--bottom {
+  margin-bottom: 9.6rem;
+}
