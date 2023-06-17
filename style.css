@@ -7,9 +7,9 @@
 
 /* INTRO SECTION*/
 .intro-section {
-  margin: 6.4rem auto;
-  max-width: 96rem;
+  padding: 4.8rem 0 7.2rem 0;
   grid-template-rows: 1fr 7.2rem !important;
+  background-color: #f3f0ff;
 }
 .hi-text-en {
   grid-row: 1/2;
@@ -24,17 +24,17 @@
   width: auto;
   border-radius: 10%;
   grid-row: 1/3;
+  margin-bottom: 9.6rem;
   justify-self: flex-end;
 }
 .main-text {
-  margin-bottom: 3.6rem;
   grid-template-columns: 4fr 1fr !important;
 }
 /* -----Intro Section Footer------  */
 .main-footer {
   justify-items: center;
   align-content: center;
-  margin-top: 2.4rem;
+  margin-top: 9.6rem;
   grid-template-columns: 1fr 2fr 1fr !important;
 }
 .main-footer-more {
@@ -43,10 +43,16 @@
 .main-footer-who {
   font-size: 2.4rem;
   letter-spacing: 1px;
+  text-align: center;
+  row-gap: 0.8rem;
+  display: grid;
 }
 .main-footer-who-text {
   text-align: center;
 }
 .main-footer-social {
   align-self: center;
+}
+.main-who-header {
+  align-self: flex-end;
 }

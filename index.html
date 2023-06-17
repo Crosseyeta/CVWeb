@@ -6,14 +6,20 @@
     <title>Resumé</title>
     <link href="style.css" rel="stylesheet" />
     <link href="general.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <!-- 
 
  -->
   <body>
-    <section class="intro-section grid grid-2-row">
-      <div class="main-text grid grid-2-column">
+    <section class="intro-section">
+      <div class="container main-text grid grid-2-column">
         <h2 class="hi-text-en main-header">Hi !</h2>
         <h2 class="hi-text-kr main-header">안녕하세요 !</h2>
         <img
@@ -22,30 +28,25 @@
           class="intro-person-img"
         />
       </div>
-      <div class="main-footer grid grid-3-column">
+      <div class="container main-footer grid grid-3-column">
         <div class="main-footer-more">
           <!-- There will be icon of arrow here.Also its going to be independent. I cant remember how can I do that.Look for it =) -->
           <p class="third-header">For More !</p>
         </div>
-        <div class="main-footer-who">
-          <p class="main-footer-who-text">
-            <span class="second-header main-who-header">Who am I ?</span>
-            <!-- This is going to be a little bit bigger-->
-            <br /><br />
-
-            I am Ayberk(Cross) <br />
-            Computer Science Student, <br />
-            K-Drama lover,<br />
-            Obsessed With Coding <br /><br />
-
-            <!-- Some of them will be enlighted by using span -->
-
-            <span>This is Basically Me :)</span>
+        <div class="main-footer-who grid grid-3-row">
+          <span class="second-header main-who-header">Who am I?</span>
+          <p>
+            I am Ayberk(Cross)!
+            <br />
+            Computer Science Student<br />
+            K-Drama Lover<br />
+            Obsedded With Coding<br />
           </p>
+          <span>This is Basically Me :)</span>
         </div>
 
         <nav class="main-footer-social">
-          <p class="third-header">Social</p>
+          <span class="third-header">Social</span>
           <ul class="main-footer-social-list">
             <!-- <li>Insta</li>
             <li>Youtube</li>    These all are going to be icons.

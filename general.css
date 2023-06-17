@@ -64,12 +64,13 @@ html {
 
 body {
   color: #444444;
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* Reusable Lines */
 
 .container {
-  max-width: 108rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
