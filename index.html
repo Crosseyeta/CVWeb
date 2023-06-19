@@ -12,6 +12,14 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
 
   <!-- 
@@ -31,17 +39,78 @@
       </div>
       <div class="container main-footer grid grid-3-column">
         <div class="main-footer-more">
-          <!-- There will be icon of arrow here.Also its going to be independent. I cant remember how can I do that.Look for it =) -->
-          <p class="third-header">For More !</p>
+          <p class="second-header circle-sketch-highlight">For More !</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3"
+            />
+          </svg>
         </div>
         <div class="main-footer-who grid">
           <span class="second-header main-who-header">Who am I?</span>
           <span> I am Ayberk(Cross)!</span>
           <nav>
             <ul class="main-who-list">
-              <li>Computer Science <span>Student</span></li>
-              <li><span>K-Drama</span> Lover</li>
-              <li>Obsessed With <span>Coding</span></li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                  />
+                </svg>
+                Computer Science <span>Student</span>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                  />
+                </svg>
+                <span>K-Drama</span> Lover
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"
+                  />
+                </svg>
+                Obsessed With <span>Coding</span>
+              </li>
             </ul>
           </nav>
 
@@ -49,11 +118,15 @@
         </div>
 
         <nav class="main-footer-social">
-          <span class="third-header">Social</span>
+          <span class="second-header circle-sketch-highlight">Social</span>
           <ul class="main-footer-social-list">
-            <!-- <li>Insta</li>
-            <li>Youtube</li>    These all are going to be icons.
-            <li>GitHub</li> -->
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+            </li>
+            <li><ion-icon name="logo-github"></ion-icon></li>
           </ul>
         </nav>
       </div>

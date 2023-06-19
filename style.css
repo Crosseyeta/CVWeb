@@ -48,6 +48,12 @@
 .main-footer-more {
   align-self: center;
 }
+.main-footer-more svg {
+  stroke: #333333;
+  height: 160px;
+  width: auto;
+  margin-top: 2.4rem;
+}
 .main-footer-who {
   font-size: 2.4rem;
   letter-spacing: 1px;
@@ -59,7 +65,7 @@
   border-width: 0.8rem;
   border-radius: 20%;
   background-color: #845ef77a;
-  color: #f3effe;
+  color: #f0f0f0;
   box-shadow: 0 2.4rem 9.6rem rgba(93, 66, 173, 0.432);
   transition: all 0.5s;
   padding: 2.4rem 1.6rem;
@@ -68,24 +74,84 @@
 .main-footer-who:hover {
   transform: scale(110%);
 }
-.main-footer-who-text {
-  text-align: center;
+.main-who-header {
+  align-self: flex-end;
+  padding-bottom: 2rem;
 }
 .main-who-list {
   display: inline;
   letter-spacing: normal;
   list-style-type: none;
-  line-height: 3.6rem;
+  line-height: 4.2rem;
+  text-align: start;
 }
 .main-who-list li {
   border-width: 0 0 3.6rem 0;
-  border-bottom: #5c42ad;
-  border-style: solid;
+  /* border-bottom: #5c42ad;
+  border-style: solid; */
+}
+.main-who-list svg {
+  stroke: #5c42ad;
+  height: 24px;
+  width: auto;
+  text-align: center;
 }
 .main-footer-social {
   align-self: center;
+  text-align: center;
 }
-.main-who-header {
-  align-self: flex-end;
-  padding-bottom: 3.6rem;
+
+.main-footer-social-list {
+  list-style: none;
+}
+.main-footer-social-list li {
+  display: inline-block;
+  margin-top: 2.4rem;
+  margin-right: 3.6rem;
+}
+.main-footer-social-list li:last-child {
+  margin-right: 0;
+}
+.main-footer-social-list ion-icon {
+  width: 48px;
+  height: 48px;
+  color: #5c42ad;
+}
+.circle-sketch-highlight {
+  position: relative;
+}
+.circle-sketch-highlight::before {
+  content: "";
+  /* z-index: -1; */
+  left: -0.5em;
+  top: 0.1em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #845ef7;
+  position: absolute;
+  border-right-color: transparent;
+  width: 100%;
+  height: 1em;
+  transform: rotate(2deg);
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 0.1em 0.25em;
+}
+.circle-sketch-highlight::after {
+  content: "";
+  /* z-index: -1; */
+  left: -0.5em;
+  top: 0.3em;
+  padding: 0.1em 0.25em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #845ef7;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 1em;
+  transform: rotate(-3deg);
+  opacity: 0.7;
+  border-radius: 50%;
 }

@@ -32,7 +32,11 @@ Paragraph default: 1.6
 
 
 - Accents:
-- Greys
+- Greys:#333333
+#444444
+#666666
+
+
 
 
 
@@ -65,7 +69,7 @@ html {
 }
 
 body {
-  color: #444444;
+  color: #666666;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -105,13 +109,17 @@ body {
 
 .main-header {
   font-size: 9.6rem;
+  font-weight: 700;
 }
 .second-header {
   font-size: 3.6rem;
-  color: #7755de;
+  color: #333333;
+  font-weight: 600;
 }
 .third-header {
   font-size: 2.4rem;
+  color: #444444;
+  font-weight: 500;
 }
 .marked-text {
   background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=5c42ad);
