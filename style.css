@@ -159,7 +159,7 @@
 
 /* EDUCATION SECTION */
 .education-section {
-  padding: 9.6rem 0 7.2rem 0;
+  padding: 8.4rem 0 7.2rem 0;
   background-color: #f1f1f1;
 }
 .timeline {
@@ -169,6 +169,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
+  margin-top: 7.2rem;
 }
 .timeline ul {
   list-style: none;
@@ -269,4 +270,48 @@
   color: #845ef7;
   transition: all 0.3s;
 }
+/* ************************ */
 /* END OF EDUCATION SECTION */
+/* ************************ */
+
+/* ************************ */
+/* EXPERIENCE SECTION */
+/* ************************ */
+
+.experience-section {
+  background-color: #f3f0ff;
+  padding: 8.4rem 0 7.2rem 0;
+}
+.experience-box {
+  margin: 7.2rem auto 7.2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: #333333;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2.4rem 4.4rem rgba(0, 0, 0, 0.3);
+}
+.experience-box img {
+  width: 44.4rem;
+}
+.experience-box p {
+  color: #f1f1f1;
+  font-size: 16px;
+  margin: 2.4rem 0 2.4rem 7%;
+
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 200%;
+}
+.experience-section h2:last-child {
+  text-align: center;
+  font-weight: 300;
+  color: #333333;
+}
+.experience-section span {
+  color: #845ef7;
+  border-bottom: 1px solid #845ef7;
+}
+/* ************************ */
+/* END OF EXPERIENCE SECTION */
+/* ************************ */
